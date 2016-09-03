@@ -1,0 +1,28 @@
+{
+    "type": "Game",
+    "title": "Course Policies",
+    "set": "Homework",
+    "number": 0,
+    "allowAccess": [
+        {"mode":"Public","credit":0, "startDate":"2016-11-01T23:59:59", "endDate":"2016-12-20T23:59:59"},
+        {"mode":"Public","credit":80, "startDate":"2015-08-10T23:59:59", "endDate":"2016-09-09T23:59:59"},
+        {"mode":"Public","credit":100,"startDate":"2015-08-10T23:59:59","endDate":"2016-08-27T23:59:59"}
+    ],
+    "options": {
+        "questions": [
+            {"qid": "policyAttendance",  "initValue": 3, "maxScore": 3},
+            {"qid": "policyZero",        "initValue": 3, "maxScore": 3},
+            {"qid": "policyPartners",    "initValue": 3, "maxScore": 3},
+            {"qid": "policyPartnership", "initValue": 3, "maxScore": 3},
+            {"qid": "policyIdenticalTF", "initValue": 3, "maxScore": 3},
+            {"qid": "policyFormat",      "initValue": 3, "maxScore": 3},
+            {"qid": "policyVideos",      "initValue": 3, "maxScore": 3},
+            {"qid": "policyPlagiarism",  "initValue": 3, "maxScore": 3},
+            {"qid": "policyPlagPenalty", "initValue": 3, "maxScore": 3},
+            {"qid": "policyRegrade",     "initValue": 3, "maxScore": 3},
+            {"qid": "policy2ndChance",   "initValue": 3, "maxScore": 3}
+        ],
+        "allowPractice": false,
+        "maxScore": 30
+    }
+}
